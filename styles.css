@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(salmon, pink);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+}
+#bff-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 30px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/MdqE46HziuFJTlIwjw/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/l3q2Z5667uYOJ2U6I/giphy-downsized-large.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/oeG8DuL3csL7GVqgn2/giphy.gif");
+
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/Pjr0NCGk4WMQPQtg0C/giphy-downsized-large.gif");
+
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/kv5fbxHVAEOjrHeCLk/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
